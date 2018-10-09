@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/main"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/degradadosplash">
+
+    <LinearLayout
+        android:id="@+id/linearLayoutTitulosPagina"
+        android:layout_width="match_parent"
+        android:background="@drawable/rounded_border_white_title"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tituloContacto"
+        android:textColor="#4d4d4d"
+        />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_below="@id/linearLayoutTitulosPagina"
+        android:id="@+id/scrollViewDatos"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_margin="10dp">
+
+        <GridLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/rounded_border_white_title">
+
+
+            <TextView
+                android:id="@+id/txtNombreCarrillo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_row="0"
+                android:text="Sucursal Felipe Carrillo Puerto"
+                android:textColor="#4d4d4d"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/txtContactoFcp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_marginBottom="10dp"
+                android:layout_row="1"
+                android:text="Titulo"
+                android:autoLink="email"
+                android:textColor="#4d4d4d"/>
+
+
+            <TextView
+                android:id="@+id/txtNombreTul"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_row="2"
+                android:text="Sucursal Tulum"
+                android:textColor="#4d4d4d"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/txtContactoTul"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_marginBottom="10dp"
+                android:layout_row="3"
+                android:text="Titulo"
+                android:autoLink="email"
+                android:textColor="#4d4d4d"/>
+
+
+            <TextView
+                android:id="@+id/txtNombreTih"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_row="4"
+                android:text="Sucursal Tihosuco"
+                android:textColor="#4d4d4d"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/txtContactoTih"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_marginBottom="10dp"
+                android:layout_row="5"
+                android:text="Titulo"
+                android:autoLink="email"
+                android:textColor="#4d4d4d"/>
+
+
+            <TextView
+                android:id="@+id/txtNombreChun"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_row="6"
+                android:text="Sucursal Chunhuhub"
+                android:textColor="#4d4d4d"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/txtContactoChun"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_row="7"
+                android:text="Titulo"
+                android:autoLink="email"
+                android:textColor="#4d4d4d"/>
+
+
+        </GridLayout>
+
+
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutTituloTels"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/scrollViewDatos"
+        android:layout_margin="10dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Llámanos a la sucursal de tu preferencia"
+            android:textColor="#fff"
+            android:textStyle="bold"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linearLayoutTituloTels"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+
+        <Button
+
+            android:id="@+id/btnLlamarFCP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/button_states_yes"
+            android:text="F.C.P"
+            android:textColor="#ffffff"/>
+
+
+        <Button
+
+            android:id="@+id/btnLlamarTul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/button_states_yes"
+            android:text="Tulum"
+            android:textColor="#ffffff"/>
+
+
+        <Button
+            android:id="@+id/btnLlamarTih"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/button_states_yes"
+            android:text="Tihosuco"
+            android:textColor="#ffffff"/>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

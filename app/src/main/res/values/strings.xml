@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Informatec</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="imagen_de_logros_del_tecnologico">Imagen de logros del tecnologico.</string>
+    <string name="descripcion">Descripcion</string>
+
+    <string name="account_type">com.fcp.tec.informatec</string>
+    <string name="sync_name">Informatec</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="item_title">Palais Garnier</string>
+    <string name="item_desc">The Palais Garnier which locates in Paris was built from 1861 for
+        the Paris Opera.
+    </string>
+    <string name="detail_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+        nostrud exercitation ullamco laboris
+    </string>
+    <string name="detail_location">"8 Rue Scribe, 75009 Paris, France"</string>
+
+    <string name="on">
+
+    on
+
+
+    </string>
+    <string name="off">Off</string>
+    <string name="section_format">Pregunta: %1$d</string>
+    <string name="title_activity_one_fragment_item__test">Test</string>
+    <string name="tituloContacto">Visita la unidad académica que más te convenga, contamos con <u>4 unidades</u> ubicadas en: <b>Felipe Carrillo Puerto</b>, <b>Tulum</b>, <b>Tihosuco</b> y <b>Chunhuhub</b>.</string>
+    <string name="tituloCalendario">Aqui se publican los días de inscripciones, exámenes y eventos del tecnológico</string>
+    <string name="tituloPreguntas">Preguntas Frecuentes</string>
+    <string name="acerca_de">Esta aplicación es un desarrollo realizado por Angel Martin Pat Oribe para la versión de teléfonos celulares en las secciones de backend/frontend y de Esau Lopez Gomez en backend/frontend para la versión de tabletas, ambos como proyecto de residencia profesional de la carrera de Ing. En Sistemas Computacionales. La idea original asi como la primera versión del software proviene de un proyecto integrador realizado por alumnos de Ing. En Sistemas Computacionales de la generación 2013 grupos A y B, la cual se tomó como punto de partida conceptual, realizando en el proceso muchos cambios y arreglos (internos/externos). La asesora interna de residencia fué la MC. Arizbé del Socorro Arana Katún y como asesora externa la MTE. Noemi Guadalupe del Castillo Sosa, ambas docentes del Instituto Tecnológico Superior de Felipe Carrillo Puerto.</string>
+    <string name="subtituloEscuela">\"Ciencia y Tecnología Con Identidad Cultural\"</string>
+
+    <string name="nombre_Tec">INSTITUTO TECNOLÓGICO SUPERIOR DE FELIPE CARRILLO PUERTO</string>
+
+    <!--String para el Menú -->
+    <string name="item_inicio">INICIO</string>
+    <string name="item_instalaciones">INSTALACIONES</string>
+    <string name="item_extraescolares">EXTRAESCOLARES</string>
+    <string name="item_testimonios">TESTIMONIOS</string>
+    <string name="item_logros">LOGROS</string>
+    <string name="instalaciones_tec">Tecnologíco Nacional de México</string>
+    <string name="descripcion_instalaciones">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</string>
+
+    <string name="string_becas">- Becas Manutención \t- Becas de comedor \t- Veranos de investigación \t- Excelencia Académica \t-Y muchas mas. . .</string>
+    <string name="descipcion_btn_contacto">Contacto</string>
+
+    <string name="nombre_egresado">ESAÚ LÓPEZ GÓMEZ</string>
+    <string name="name_ingenieria">INGENIERÍA EN SISTEMAS COMPUTACIONALES</string>
+    <string name="title_activity_main">MainActivity</string>
+
+
+</resources>

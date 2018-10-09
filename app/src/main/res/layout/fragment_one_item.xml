@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+
+        <ImageButton
+
+            android:id="@+id/btntec"
+            android:layout_width="150dp"
+            android:layout_height="90dp"
+            android:layout_gravity="center_horizontal"
+            android:alpha="0.5"
+            android:background="@drawable/logotec"
+            android:scaleType="centerInside" />
+
+
+        <TextView
+            android:id="@+id/card_text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/card_image1"
+            android:layout_gravity="center_vertical|right"
+            android:ellipsize="end"
+            android:text="Instituto Tecnológico Superior de Felipe Carrillo Puerto"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/article_subheading4" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/card_text1"
+            android:text="@string/subtituloEscuela"
+            android:textAlignment="center"
+            android:textColor="#9fb9b5b5"
+            android:textSize="13dp" />
+
+
+    </LinearLayout>
+
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:baselineAligned="false">
+
+            <Button
+                android:id="@+id/button_carreras"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/card1_height1"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:background="#4c5467"
+                android:drawableTop="@drawable/per"
+                android:gravity="center"
+                android:text="Tu Carrera Ideal"
+                android:textColor="#ffffff"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button_ingenierias"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/card1_height1"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:background="#4c5467"
+                android:drawableTop="@drawable/ing"
+                android:gravity="center"
+                android:text="Ingenierías"
+                android:textColor="#ffffff"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button_procesoAdmiciones"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/card1_height1"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:background="#4c5467"
+                android:drawableTop="@drawable/admin"
+                android:gravity="center"
+                android:text="Admisiones"
+                android:textColor="#ffffff"
+                android:textSize="10sp" />
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/button_preguntas"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/card1_height2"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/rounded_border"
+                android:elevation="4dp"
+                android:gravity="center"
+                android:text="¿Preguntas?"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/article_subheading3"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button_calendario"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/card1_height2"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/rounded_border"
+                android:gravity="center"
+                android:text="Calendario"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/article_subheading3"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button_contactos"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/card1_height2"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/rounded_border"
+                android:gravity="center"
+                android:text="Contacto"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/article_subheading3"
+                android:textStyle="bold" />
+        </TableRow>
+
+    </TableLayout>
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="280dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:id="@+id/view1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_border_filled_header"
+            android:gravity="center_horizontal"
+            android:text="Beneficios"
+            android:textColor="#ffff"
+            android:textSize="16sp" />
+
+
+        <!--   IMAGEN DE EGRESADO CIRCULAR IMAGE VIEW    -->
+
+        <TextView
+            android:id="@+id/textview_noCardtext_beneficios"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/view1"
+            android:background="@drawable/rounded_border_filled_content"
+            android:text="\t- Becas Manutención\n\t- Becas de comedor\n\t- Veranos de investigación\n\t- Excelencia Académica\n\t-Y muchas más. . ."
+            android:textColor="@color/dark_grey"
+            android:textSize="14sp" />
+
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_inicio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@id/textview_noCardtext_beneficios"
+            android:layout_alignTop="@id/textview_noCardtext_beneficios"
+            android:layout_below="@id/view1"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/ic_add"
+            app:backgroundTint="#06b9bc"
+            app:borderWidth="0dp"
+            app:fabSize="normal" />
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

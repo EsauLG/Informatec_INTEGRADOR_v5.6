@@ -1,0 +1,606 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:2:1-386:12
+INJECTED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:2:1-386:12
+INJECTED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:2:1-386:12
+INJECTED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:2:1-386:12
+MERGED from [com.android.support:design:26.0.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\design-26.0.1.aar\47f05717e19ca36219db0e026aef2c3a\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:appcompat-v7:26.0.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.1.aar\cbcd3d6c824d8e635aea577cbf140f58\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:transition:26.0.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\transition-26.0.1.aar\6cbc16e5d3cb9d1a7fcb9266f818dc10\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.0.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.1.aar\cce35b3c5f2088c455134e9b810975b9\AndroidManifest.xml:17:1-31:12
+MERGED from [com.fivehundredpx:blurringview:1.0.0] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\blurringview-1.0.0.aar\734291cc99ca018338250732059eb6d9\AndroidManifest.xml:2:1-15:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\a6d39c369e15e3ea23ece20ed13599f8\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:recyclerview-v7:26.0.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.0.1.aar\93f35508408b28fc0d2c35b3fc01a449\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-fragment:26.0.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.1.aar\5dbfc8c07907ca0189dd1a479aaa7465\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:animated-vector-drawable:26.0.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.1.aar\9efa673ef6d266d96ce2484a00c06a2d\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-core-ui:26.0.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.1.aar\ec26aebf5b955305c8315525d046086c\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.0.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.1.aar\ae63f20041541f1c1cf28f7bc3700fc5\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.0.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.1.aar\e2884adf5f1519593cdab3988fc714a2\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-vector-drawable:26.0.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.1.aar\31e7a90442b52de589932e5f8b41cfa1\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-compat:26.0.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.1.aar\d62c2179ac13c7ef641afc14365c6786\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:cardview-v7:26.0.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.0.1.aar\0b0bb7f73ba7ac6883a849aac31ebbf1\AndroidManifest.xml:17:1-28:12
+MERGED from [com.pkmmte.view:circularimageview:1.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\circularimageview-1.1.aar\13f66dd508755a5aae2a7f14a9fc70cb\AndroidManifest.xml:2:1-13:12
+MERGED from [com.daimajia.easing:library:2.0] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\library-2.0.aar\c4f5ad0d823ca4a0d9c5e97293108455\AndroidManifest.xml:2:1-12:12
+MERGED from [com.daimajia.androidanimations:library:2.3] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\library-2.3.aar\adde37b45aa4b0acf4da3b394044836c\AndroidManifest.xml:2:1-12:12
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\fb32c1b6b1d59817baa85e1591e53539\AndroidManifest.xml:2:1-14:12
+MERGED from [com.mikhaellopez:circularimageview:3.0.2] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\circularimageview-3.0.2.aar\5ebf75d325d9cbc44044c005afcfaddc\AndroidManifest.xml:2:1-15:12
+MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\exifinterface-27.1.0.aar\f4dd185399de563f1a6ee5fe7ef46b77\AndroidManifest.xml:17:1-22:12
+INJECTED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:2:1-386:12
+INJECTED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:2:1-386:12
+INJECTED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:2:1-386:12
+	package
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:3:5-41
+		INJECTED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml
+		INJECTED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:2:1-386:12
+		INJECTED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:2:1-386:12
+		INJECTED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.CALL_PHONE
+ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:6:5-69
+	android:name
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:6:22-66
+uses-permission#android.permission.AUTHENTICATE_ACCOUNTS
+ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:10:5-80
+	android:name
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:10:22-77
+uses-permission#android.permission.READ_SYNC_STATS
+ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:13:5-74
+	android:name
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:13:22-71
+uses-permission#android.permission.READ_SYNC_SETTINGS
+ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:14:5-77
+	android:name
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:14:22-74
+uses-permission#android.permission.WRITE_SYNC_SETTINGS
+ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:15:5-78
+	android:name
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:15:22-75
+uses-permission#android.permission.INTERNET
+ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:18:5-67
+	android:name
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:18:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:19:5-79
+	android:name
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:19:22-76
+application
+ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:22:5-384:19
+MERGED from [com.android.support:design:26.0.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\design-26.0.1.aar\47f05717e19ca36219db0e026aef2c3a\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:design:26.0.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\design-26.0.1.aar\47f05717e19ca36219db0e026aef2c3a\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.0.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.1.aar\cbcd3d6c824d8e635aea577cbf140f58\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.0.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.1.aar\cbcd3d6c824d8e635aea577cbf140f58\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:transition:26.0.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\transition-26.0.1.aar\6cbc16e5d3cb9d1a7fcb9266f818dc10\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.0.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\transition-26.0.1.aar\6cbc16e5d3cb9d1a7fcb9266f818dc10\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.0.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.1.aar\cce35b3c5f2088c455134e9b810975b9\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.0.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.1.aar\cce35b3c5f2088c455134e9b810975b9\AndroidManifest.xml:25:5-29:19
+MERGED from [com.fivehundredpx:blurringview:1.0.0] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\blurringview-1.0.0.aar\734291cc99ca018338250732059eb6d9\AndroidManifest.xml:11:5-13:44
+MERGED from [com.fivehundredpx:blurringview:1.0.0] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\blurringview-1.0.0.aar\734291cc99ca018338250732059eb6d9\AndroidManifest.xml:11:5-13:44
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\a6d39c369e15e3ea23ece20ed13599f8\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\a6d39c369e15e3ea23ece20ed13599f8\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:recyclerview-v7:26.0.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.0.1.aar\93f35508408b28fc0d2c35b3fc01a449\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.0.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.0.1.aar\93f35508408b28fc0d2c35b3fc01a449\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-fragment:26.0.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.1.aar\5dbfc8c07907ca0189dd1a479aaa7465\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.0.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.1.aar\5dbfc8c07907ca0189dd1a479aaa7465\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:animated-vector-drawable:26.0.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.1.aar\9efa673ef6d266d96ce2484a00c06a2d\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.0.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.1.aar\9efa673ef6d266d96ce2484a00c06a2d\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-core-ui:26.0.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.1.aar\ec26aebf5b955305c8315525d046086c\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.0.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.1.aar\ec26aebf5b955305c8315525d046086c\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.0.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.1.aar\ae63f20041541f1c1cf28f7bc3700fc5\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.0.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.1.aar\ae63f20041541f1c1cf28f7bc3700fc5\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.0.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.1.aar\e2884adf5f1519593cdab3988fc714a2\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.0.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.1.aar\e2884adf5f1519593cdab3988fc714a2\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-vector-drawable:26.0.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.1.aar\31e7a90442b52de589932e5f8b41cfa1\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.0.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.1.aar\31e7a90442b52de589932e5f8b41cfa1\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-compat:26.0.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.1.aar\d62c2179ac13c7ef641afc14365c6786\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.0.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.1.aar\d62c2179ac13c7ef641afc14365c6786\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:cardview-v7:26.0.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.0.1.aar\0b0bb7f73ba7ac6883a849aac31ebbf1\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:cardview-v7:26.0.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.0.1.aar\0b0bb7f73ba7ac6883a849aac31ebbf1\AndroidManifest.xml:22:5-26:19
+MERGED from [com.pkmmte.view:circularimageview:1.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\circularimageview-1.1.aar\13f66dd508755a5aae2a7f14a9fc70cb\AndroidManifest.xml:11:5-20
+MERGED from [com.pkmmte.view:circularimageview:1.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\circularimageview-1.1.aar\13f66dd508755a5aae2a7f14a9fc70cb\AndroidManifest.xml:11:5-20
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\fb32c1b6b1d59817baa85e1591e53539\AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\fb32c1b6b1d59817baa85e1591e53539\AndroidManifest.xml:7:5-12:19
+MERGED from [com.mikhaellopez:circularimageview:3.0.2] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\circularimageview-3.0.2.aar\5ebf75d325d9cbc44044c005afcfaddc\AndroidManifest.xml:11:5-13:38
+MERGED from [com.mikhaellopez:circularimageview:3.0.2] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\circularimageview-3.0.2.aar\5ebf75d325d9cbc44044c005afcfaddc\AndroidManifest.xml:11:5-13:38
+	android:supportsRtl
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:27:9-35
+	android:label
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:25:9-41
+	android:roundIcon
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:26:9-54
+	android:icon
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:24:9-43
+	android:allowBackup
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:23:9-35
+	android:theme
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:28:9-40
+activity#com.fcp.tec.informatecvdos.MainActivity
+ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:29:9-50
+	android:name
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:29:19-47
+provider#com.fcp.tec.informatecvdos.provider.ProviderDeBecas
+ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:36:9-42:39
+	android:enabled
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:39:13-35
+	android:authorities
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:38:13-61
+	android:label
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:41:13-34
+	android:syncable
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:42:13-36
+	android:exported
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:40:13-37
+	android:name
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:37:13-53
+provider#com.fcp.tec.informatecvdos.provider.ProviderDeCalendario
+ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:45:9-51:39
+	android:enabled
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:48:13-35
+	android:authorities
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:47:13-57
+	android:label
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:50:13-39
+	android:syncable
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:51:13-36
+	android:exported
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:49:13-37
+	android:name
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:46:13-58
+provider#com.fcp.tec.informatecvdos.provider.ProviderDeCarreras
+ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:54:9-60:39
+	android:enabled
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:57:13-35
+	android:authorities
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:56:13-55
+	android:label
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:59:13-37
+	android:syncable
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:60:13-36
+	android:exported
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:58:13-37
+	android:name
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:55:13-56
+provider#com.fcp.tec.informatecvdos.provider.ProviderDeExtraescolares
+ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:63:9-69:39
+	android:enabled
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:66:13-35
+	android:authorities
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:65:13-61
+	android:label
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:68:13-43
+	android:syncable
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:69:13-36
+	android:exported
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:67:13-37
+	android:name
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:64:13-62
+provider#com.fcp.tec.informatecvdos.provider.ProviderDeMaterias
+ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:72:9-78:39
+	android:enabled
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:75:13-35
+	android:authorities
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:74:13-55
+	android:label
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:77:13-37
+	android:syncable
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:78:13-36
+	android:exported
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:76:13-37
+	android:name
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:73:13-56
+provider#com.fcp.tec.informatecvdos.provider.ProviderPreguntasTest
+ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:81:9-87:39
+	android:enabled
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:84:13-35
+	android:authorities
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:83:13-60
+	android:label
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:86:13-43
+	android:syncable
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:87:13-36
+	android:exported
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:85:13-37
+	android:name
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:82:13-59
+provider#com.fcp.tec.informatecvdos.provider.ProviderPreguntasFrecuentes
+ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:90:9-96:39
+	android:enabled
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:93:13-35
+	android:authorities
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:92:13-66
+	android:label
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:95:13-49
+	android:syncable
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:96:13-36
+	android:exported
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:94:13-37
+	android:name
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:91:13-65
+provider#com.fcp.tec.informatecvdos.provider.ProviderReqExAdmision
+ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:99:9-105:39
+	android:enabled
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:102:13-35
+	android:authorities
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:101:13-61
+	android:label
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:104:13-48
+	android:syncable
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:105:13-36
+	android:exported
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:103:13-37
+	android:name
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:100:13-59
+provider#com.fcp.tec.informatecvdos.provider.ProviderReqInscripcion
+ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:108:9-114:39
+	android:enabled
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:111:13-35
+	android:authorities
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:110:13-61
+	android:label
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:113:13-51
+	android:syncable
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:114:13-36
+	android:exported
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:112:13-37
+	android:name
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:109:13-60
+provider#com.fcp.tec.informatecvdos.provider.ProviderUnidadAcademica
+ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:117:9-123:39
+	android:enabled
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:120:13-35
+	android:authorities
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:119:13-62
+	android:label
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:122:13-48
+	android:syncable
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:123:13-36
+	android:exported
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:121:13-37
+	android:name
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:118:13-61
+provider#com.fcp.tec.informatecvdos.provider.ProviderInstalaciones
+ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:126:9-132:39
+	android:enabled
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:129:13-35
+	android:authorities
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:128:13-60
+	android:label
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:131:13-42
+	android:syncable
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:132:13-36
+	android:exported
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:130:13-37
+	android:name
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:127:13-59
+provider#com.fcp.tec.informatecvdos.provider.ProviderLogros
+ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:135:9-141:39
+	android:enabled
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:138:13-35
+	android:authorities
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:137:13-53
+	android:label
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:140:13-35
+	android:syncable
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:141:13-36
+	android:exported
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:139:13-37
+	android:name
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:136:13-52
+provider#com.fcp.tec.informatecvdos.provider.ProviderTestimonios
+ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:144:9-150:39
+	android:enabled
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:147:13-35
+	android:authorities
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:146:13-60
+	android:label
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:149:13-42
+	android:syncable
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:150:13-36
+	android:exported
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:148:13-37
+	android:name
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:145:13-57
+service#com.fcp.tec.informatecvdos.sync.SyncServiceBecas
+ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:155:9-165:19
+	android:enabled
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:157:13-35
+	android:exported
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:158:13-36
+	android:name
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:156:13-76
+intent-filter#action:name:android.content.SyncAdapter
+ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:159:13-161:29
+action#android.content.SyncAdapter
+ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:160:17-70
+	android:name
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:160:25-67
+meta-data#android.content.SyncAdapter
+ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:162:13-164:60
+	android:resource
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:164:17-57
+	android:name
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:163:17-59
+service#com.fcp.tec.informatecvdos.sync.SyncServiceCalendario
+ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:168:9-178:19
+	android:enabled
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:170:13-35
+	android:exported
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:171:13-36
+	android:name
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:169:13-81
+service#com.fcp.tec.informatecvdos.sync.SyncServiceCarreras
+ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:181:9-191:19
+	android:enabled
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:183:13-35
+	android:exported
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:184:13-36
+	android:name
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:182:13-79
+service#com.fcp.tec.informatecvdos.sync.SyncServiceExtraescolares
+ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:194:9-204:19
+	android:enabled
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:196:13-35
+	android:exported
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:197:13-36
+	android:name
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:195:13-85
+service#com.fcp.tec.informatecvdos.sync.SyncServiceMaterias
+ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:207:9-217:19
+	android:enabled
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:209:13-35
+	android:exported
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:210:13-36
+	android:name
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:208:13-79
+service#com.fcp.tec.informatecvdos.sync.SyncServicePreguntasTest
+ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:220:9-230:19
+	android:enabled
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:222:13-35
+	android:exported
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:223:13-36
+	android:name
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:221:13-84
+service#com.fcp.tec.informatecvdos.sync.SyncServicePreguntasFrecuentes
+ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:233:9-243:19
+	android:enabled
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:235:13-35
+	android:exported
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:236:13-36
+	android:name
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:234:13-90
+service#com.fcp.tec.informatecvdos.sync.SyncServiceReqExAdmision
+ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:246:9-256:19
+	android:enabled
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:248:13-35
+	android:exported
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:249:13-36
+	android:name
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:247:13-84
+service#com.fcp.tec.informatecvdos.sync.SyncServiceReqInscripcion
+ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:259:9-269:19
+	android:enabled
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:261:13-35
+	android:exported
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:262:13-36
+	android:name
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:260:13-85
+service#com.fcp.tec.informatecvdos.sync.SyncServiceUnidadAcademica
+ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:272:9-282:19
+	android:enabled
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:274:13-35
+	android:exported
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:275:13-36
+	android:name
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:273:13-86
+service#com.fcp.tec.informatecvdos.sync.SyncServiceInstalaciones
+ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:285:9-295:19
+	android:enabled
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:287:13-35
+	android:exported
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:288:13-36
+	android:name
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:286:13-84
+service#com.fcp.tec.informatecvdos.sync.SyncServiceLogros
+ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:298:9-308:19
+	android:enabled
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:300:13-35
+	android:exported
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:301:13-36
+	android:name
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:299:13-77
+service#com.fcp.tec.informatecvdos.sync.SyncServiceTestimoniales
+ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:311:9-321:19
+	android:enabled
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:313:13-35
+	android:exported
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:314:13-36
+	android:name
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:312:13-84
+service#com.fcp.tec.informatecvdos.sync.AuthenticationService
+ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:326:9-333:19
+	android:name
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:326:18-86
+intent-filter#action:name:android.accounts.AccountAuthenticator
+ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:327:13-329:29
+action#android.accounts.AccountAuthenticator
+ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:328:17-80
+	android:name
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:328:25-77
+meta-data#android.accounts.AccountAuthenticator
+ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:330:13-332:57
+	android:resource
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:332:17-54
+	android:name
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:331:17-69
+activity#com.fcp.tec.informatecvdos.SplashScreen
+ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:336:9-343:20
+	android:theme
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:338:13-77
+	android:name
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:337:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:339:13-342:29
+action#android.intent.action.MAIN
+ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:340:17-69
+	android:name
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:340:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:341:17-77
+	android:name
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:341:27-74
+activity#com.fcp.tec.informatecvdos.activities.OneFragmentItem_Preguntas
+ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:344:9-352:20
+	android:parentActivityName
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:347:13-55
+	android:label
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:346:13-38
+	android:name
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:345:13-65
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:349:13-351:49
+	android:value
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:351:17-46
+	android:name
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:350:17-63
+activity#com.fcp.tec.informatecvdos.activities.OneFragmentItem_Test
+ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:353:9-361:20
+	android:parentActivityName
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:356:13-55
+	android:label
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:355:13-75
+	android:theme
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:357:13-44
+	android:name
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:354:13-60
+activity#com.fcp.tec.informatecvdos.activities.OneFragmentItem_Carreras
+ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:362:9-364:15
+	android:name
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:363:13-64
+activity#com.fcp.tec.informatecvdos.activities.OneFragmentItem_Beneficios
+ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:365:9-367:52
+	android:screenOrientation
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:367:13-49
+	android:name
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:366:13-66
+activity#com.fcp.tec.informatecvdos.activities.OneFragmentItem_Calendario
+ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:368:9-370:15
+	android:name
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:369:13-66
+activity#com.fcp.tec.informatecvdos.activities.OneFragmentItem_Padmin
+ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:371:9-373:15
+	android:name
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:372:13-62
+activity#com.fcp.tec.informatecvdos.activities.OneFragmentItem_Contacto
+ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:374:9-376:15
+	android:name
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:375:13-64
+activity#com.fcp.tec.informatecvdos.activities.OneFragmentItem_Resultados
+ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:377:9-379:15
+	android:name
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:378:13-66
+activity#com.fcp.tec.informatecvdos.activities.Acerca_De
+ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:380:9-382:15
+	android:name
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml:381:13-49
+uses-sdk
+INJECTED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml
+INJECTED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:26.0.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\design-26.0.1.aar\47f05717e19ca36219db0e026aef2c3a\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:26.0.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\design-26.0.1.aar\47f05717e19ca36219db0e026aef2c3a\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:26.0.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.1.aar\cbcd3d6c824d8e635aea577cbf140f58\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.0.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.1.aar\cbcd3d6c824d8e635aea577cbf140f58\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:transition:26.0.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\transition-26.0.1.aar\6cbc16e5d3cb9d1a7fcb9266f818dc10\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.0.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\transition-26.0.1.aar\6cbc16e5d3cb9d1a7fcb9266f818dc10\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.0.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.1.aar\cce35b3c5f2088c455134e9b810975b9\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.0.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.1.aar\cce35b3c5f2088c455134e9b810975b9\AndroidManifest.xml:21:5-23:54
+MERGED from [com.fivehundredpx:blurringview:1.0.0] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\blurringview-1.0.0.aar\734291cc99ca018338250732059eb6d9\AndroidManifest.xml:7:5-9:41
+MERGED from [com.fivehundredpx:blurringview:1.0.0] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\blurringview-1.0.0.aar\734291cc99ca018338250732059eb6d9\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\a6d39c369e15e3ea23ece20ed13599f8\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\a6d39c369e15e3ea23ece20ed13599f8\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:recyclerview-v7:26.0.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.0.1.aar\93f35508408b28fc0d2c35b3fc01a449\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.0.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.0.1.aar\93f35508408b28fc0d2c35b3fc01a449\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:26.0.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.1.aar\5dbfc8c07907ca0189dd1a479aaa7465\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.0.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.1.aar\5dbfc8c07907ca0189dd1a479aaa7465\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:animated-vector-drawable:26.0.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.1.aar\9efa673ef6d266d96ce2484a00c06a2d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.0.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.1.aar\9efa673ef6d266d96ce2484a00c06a2d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:26.0.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.1.aar\ec26aebf5b955305c8315525d046086c\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.0.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.1.aar\ec26aebf5b955305c8315525d046086c\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:26.0.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.1.aar\ae63f20041541f1c1cf28f7bc3700fc5\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.0.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.1.aar\ae63f20041541f1c1cf28f7bc3700fc5\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:26.0.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.1.aar\e2884adf5f1519593cdab3988fc714a2\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.0.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.1.aar\e2884adf5f1519593cdab3988fc714a2\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-vector-drawable:26.0.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.1.aar\31e7a90442b52de589932e5f8b41cfa1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.1.aar\31e7a90442b52de589932e5f8b41cfa1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:26.0.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.1.aar\d62c2179ac13c7ef641afc14365c6786\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.0.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.1.aar\d62c2179ac13c7ef641afc14365c6786\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:cardview-v7:26.0.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.0.1.aar\0b0bb7f73ba7ac6883a849aac31ebbf1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:26.0.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.0.1.aar\0b0bb7f73ba7ac6883a849aac31ebbf1\AndroidManifest.xml:20:5-44
+MERGED from [com.pkmmte.view:circularimageview:1.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\circularimageview-1.1.aar\13f66dd508755a5aae2a7f14a9fc70cb\AndroidManifest.xml:7:5-9:41
+MERGED from [com.pkmmte.view:circularimageview:1.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\circularimageview-1.1.aar\13f66dd508755a5aae2a7f14a9fc70cb\AndroidManifest.xml:7:5-9:41
+MERGED from [com.daimajia.easing:library:2.0] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\library-2.0.aar\c4f5ad0d823ca4a0d9c5e97293108455\AndroidManifest.xml:8:5-10:41
+MERGED from [com.daimajia.easing:library:2.0] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\library-2.0.aar\c4f5ad0d823ca4a0d9c5e97293108455\AndroidManifest.xml:8:5-10:41
+MERGED from [com.daimajia.androidanimations:library:2.3] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\library-2.3.aar\adde37b45aa4b0acf4da3b394044836c\AndroidManifest.xml:8:5-10:41
+MERGED from [com.daimajia.androidanimations:library:2.3] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\library-2.3.aar\adde37b45aa4b0acf4da3b394044836c\AndroidManifest.xml:8:5-10:41
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\fb32c1b6b1d59817baa85e1591e53539\AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\fb32c1b6b1d59817baa85e1591e53539\AndroidManifest.xml:5:5-44
+MERGED from [com.mikhaellopez:circularimageview:3.0.2] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\circularimageview-3.0.2.aar\5ebf75d325d9cbc44044c005afcfaddc\AndroidManifest.xml:7:5-9:41
+MERGED from [com.mikhaellopez:circularimageview:3.0.2] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\circularimageview-3.0.2.aar\5ebf75d325d9cbc44044c005afcfaddc\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\exifinterface-27.1.0.aar\f4dd185399de563f1a6ee5fe7ef46b77\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\exifinterface-27.1.0.aar\f4dd185399de563f1a6ee5fe7ef46b77\AndroidManifest.xml:20:5-44
+INJECTED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml
+INJECTED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:26.0.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\design-26.0.1.aar\47f05717e19ca36219db0e026aef2c3a\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml
+		INJECTED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml
+		ADDED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml
+		INJECTED from D:\RESPALDO 2018-64BITS\DOCUMENTOS\Android Studio\Informatec_INTEGRADOR_v5.6\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:26.0.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\design-26.0.1.aar\47f05717e19ca36219db0e026aef2c3a\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.0.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.1.aar\cbcd3d6c824d8e635aea577cbf140f58\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.0.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.1.aar\cbcd3d6c824d8e635aea577cbf140f58\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:transition:26.0.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\transition-26.0.1.aar\6cbc16e5d3cb9d1a7fcb9266f818dc10\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.0.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\transition-26.0.1.aar\6cbc16e5d3cb9d1a7fcb9266f818dc10\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.0.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.1.aar\cce35b3c5f2088c455134e9b810975b9\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.0.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.1.aar\cce35b3c5f2088c455134e9b810975b9\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:recyclerview-v7:26.0.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.0.1.aar\93f35508408b28fc0d2c35b3fc01a449\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.0.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.0.1.aar\93f35508408b28fc0d2c35b3fc01a449\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-fragment:26.0.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.1.aar\5dbfc8c07907ca0189dd1a479aaa7465\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.0.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.1.aar\5dbfc8c07907ca0189dd1a479aaa7465\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.0.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.1.aar\9efa673ef6d266d96ce2484a00c06a2d\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.0.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.1.aar\9efa673ef6d266d96ce2484a00c06a2d\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-core-ui:26.0.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.1.aar\ec26aebf5b955305c8315525d046086c\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.0.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.1.aar\ec26aebf5b955305c8315525d046086c\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.0.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.1.aar\ae63f20041541f1c1cf28f7bc3700fc5\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.0.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.1.aar\ae63f20041541f1c1cf28f7bc3700fc5\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.0.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.1.aar\e2884adf5f1519593cdab3988fc714a2\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.0.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.1.aar\e2884adf5f1519593cdab3988fc714a2\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-vector-drawable:26.0.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.1.aar\31e7a90442b52de589932e5f8b41cfa1\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.0.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.1.aar\31e7a90442b52de589932e5f8b41cfa1\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-compat:26.0.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.1.aar\d62c2179ac13c7ef641afc14365c6786\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.0.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.1.aar\d62c2179ac13c7ef641afc14365c6786\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:cardview-v7:26.0.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.0.1.aar\0b0bb7f73ba7ac6883a849aac31ebbf1\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:cardview-v7:26.0.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.0.1.aar\0b0bb7f73ba7ac6883a849aac31ebbf1\AndroidManifest.xml:23:9-25:38
+	android:value
+		ADDED from [com.android.support:design:26.0.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\design-26.0.1.aar\47f05717e19ca36219db0e026aef2c3a\AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:design:26.0.1] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\design-26.0.1.aar\47f05717e19ca36219db0e026aef2c3a\AndroidManifest.xml:27:13-51
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\fb32c1b6b1d59817baa85e1591e53539\AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\fb32c1b6b1d59817baa85e1591e53539\AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\fb32c1b6b1d59817baa85e1591e53539\AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\UNIVERSE-INNER\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\fb32c1b6b1d59817baa85e1591e53539\AndroidManifest.xml:9:13-64

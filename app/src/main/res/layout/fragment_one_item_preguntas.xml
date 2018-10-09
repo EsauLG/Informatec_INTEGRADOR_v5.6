@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/degradadosplash"
+    tools:context="com.fcp.tec.informatecvdos.activities.OneFragmentItem_Preguntas">
+
+    <TextView
+
+        android:id="@+id/textview_pregunta_titulo"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:text="@string/tituloPreguntas"
+        android:textAlignment="center"
+        android:textColor="#4d4d4d"
+        android:textSize="16sp"
+        android:paddingTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_border_white_title"
+        />
+
+
+
+    <ExpandableListView
+
+        android:id="@+id/expandablelistview_preguntas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#FFF"
+        android:childDivider="#FFF"
+
+        >
+
+    </ExpandableListView>
+
+
+</LinearLayout>

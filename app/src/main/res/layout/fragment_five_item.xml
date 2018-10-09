@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="4dp">
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/card_image_logros"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/card_image_height"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:id="@+id/card_title_logros"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/card_image_logros"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="#50000000"
+                android:gravity="center"
+                android:text="titulo logro"
+                android:textColor="@color/white"
+                android:textSize="@dimen/article_subheading" />
+
+            <TextView
+                android:id="@+id/card_text_descripcion_logros"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/card_title_logros"
+                android:layout_gravity="center_vertical|right"
+                android:layout_margin="12dp"
+                android:ellipsize="end"
+                android:text="Descripcion logro"
+                android:textColor="@color/dark_grey"
+                android:textSize="14sp" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

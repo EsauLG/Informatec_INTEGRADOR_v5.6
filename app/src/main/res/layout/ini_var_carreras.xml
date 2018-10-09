@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/degradadosplash"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:scrollbars="horizontal">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <ImageButton
+                    android:id="@+id/btnIngSistemas"
+                    android:layout_width="110dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/isclogo"
+                    android:clickable="true" />
+
+
+                <ImageButton
+                    android:id="@+id/btnIngIndustrial"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/iilogo"
+                    android:clickable="true" />
+
+                <ImageButton
+                    android:id="@+id/btnIngAlimen"
+                    android:layout_width="88dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/iialogo" />
+
+                <ImageButton
+                    android:id="@+id/btnIngAdmin"
+                    android:layout_width="85dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/ialogo" />
+
+
+                <ImageButton
+                    android:id="@+id/btnIngGestion"
+                    android:layout_width="110dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/igelogo" />
+
+
+            </LinearLayout>
+
+
+        </HorizontalScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/txtMisionCarrera"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:gravity="center_horizontal"
+                android:text="Carrera"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/article_subheading" />
+
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+
+            <View
+                android:id="@+id/view1"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@drawable/rounded_border_filled_header" />
+
+            <TextView
+                android:id="@+id/txtMision"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/view1"
+                android:background="@drawable/rounded_border_filled_content"
+                android:elevation="0dp"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:textColor="@color/dark_grey"
+                android:textSize="@dimen/article_subheading1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="8dp"
+                    android:text="Misión"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/article_subheading" />
+
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:text="Semestre - "
+                android:textColor="#fff"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtSemestreActual"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="1"
+                android:textColor="#fff"
+                android:textSize="16sp" />
+
+
+        </LinearLayout>
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:scrollbars="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <Button
+                    android:id="@+id/btnSemestre1"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/button_states"
+                    android:text="1"
+                    android:textColor="#fff"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btnSemestre2"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/button_states"
+                    android:text="2"
+                    android:textColor="#fff"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btnSemestre3"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/button_states"
+                    android:text="3"
+                    android:textColor="#fff"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btnSemestre4"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/button_states"
+                    android:text="4"
+                    android:textColor="#fff"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btnSemestre5"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/button_states"
+                    android:text="5"
+                    android:textColor="#fff"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btnSemestre6"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/button_states"
+                    android:text="6"
+                    android:textColor="#fff"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btnSemestre7"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/button_states"
+                    android:text="7"
+                    android:textColor="#fff"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btnSemestre8"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/button_states"
+                    android:text="8"
+                    android:textColor="#fff"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btnSemestre9"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/button_states"
+                    android:text="9"
+                    android:textColor="#fff"
+                    android:textSize="16sp" />
+
+
+            </LinearLayout>
+
+
+        </HorizontalScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/txtSemestres"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/rounded_border_white_title" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/top_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/gesto_mano"
+            android:scaleType="center" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="165dp"
+            android:background="@drawable/gesto_mano"
+            android:scaleType="center" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/gesto_mano"
+            android:rotation="90"
+            android:scaleType="center" />
+
+
+    </LinearLayout>
+
+
+</FrameLayout>

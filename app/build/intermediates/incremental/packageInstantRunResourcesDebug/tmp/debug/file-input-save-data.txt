@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Sun Sep 16 00:36:52 COT 2018
+0.baseType=DIRECTORY
+0.base=D\:\\RESPALDO 2018-64BITS\\DOCUMENTOS\\Android Studio\\Informatec_INTEGRADOR_v5.6\\app\\build\\intermediates\\assets\\debug
+0.path=databases/iscitsfc_informatec.db
+0.set=ASSET
+count=1

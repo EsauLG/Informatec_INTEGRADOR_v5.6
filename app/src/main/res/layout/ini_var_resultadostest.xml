@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/degradadosplash"
+    tools:context="com.fcp.tec.informatecvdos.activities.OneFragmentItem_Resultados">
+
+    <RelativeLayout
+        android:id="@+id/dat1"
+        android:layout_width="wrap_content"
+        android:layout_height="400dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp">
+
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/rounded_border_filled_header" />
+
+        <TextView
+            android:id="@+id/card_text_descripcion_logros"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_alignEnd="@+id/view1"
+            android:layout_alignLeft="@+id/view1"
+            android:layout_alignRight="@+id/view1"
+            android:layout_alignStart="@+id/view1"
+            android:layout_below="@+id/view1"
+            android:layout_gravity="center_vertical|right"
+            android:background="@drawable/rounded_border_filled_content"
+            android:elevation="0dp"
+            android:padding="10dp"
+            android:paddingTop="11dp"
+            android:text="@string/detail_desc"
+            android:textColor="@color/dark_grey"
+            android:textSize="@dimen/article_subheading1" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="254dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="54dp"
+            android:layout_marginStart="54dp"
+            android:paddingTop="12dp"
+            android:gravity="center_horizontal"
+            android:text="Resultados"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/article_subheading"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

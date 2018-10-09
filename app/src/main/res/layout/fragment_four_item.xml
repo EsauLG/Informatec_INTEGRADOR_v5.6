@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view_testimonios"
+        app:cardCornerRadius="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="#06b9bc"/>
+
+            <TextView
+                android:id="@+id/nombreEgr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/imagenTestimonio"
+                android:layout_marginEnd="11dp"
+                android:layout_marginRight="11dp"
+                android:layout_marginTop="8dp"
+                android:text="NOMBRE EGRESADO"
+                android:textAlignment="center"
+                android:textColor="@color/dark_grey"
+                android:textSize="@dimen/article_subheading" />
+
+            <TextView
+                android:id="@+id/carreraEgr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/nombreEgr"
+                android:layout_marginEnd="11dp"
+                android:layout_marginRight="11dp"
+                android:layout_marginTop="3dp"
+                android:text="INGENIERIA"
+                android:textAlignment="center"
+                android:textColor="#a4000000"
+                android:textSize="@dimen/article_subheading3" />
+
+            <TextView
+                android:id="@+id/desTest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/carreraEgr"
+                android:layout_gravity="center_vertical|right"
+                android:layout_margin="12dp"
+                android:layout_marginTop="3dp"
+                android:text="Descripcion testimonio"
+                android:textColor="@color/dark_grey"
+                android:textSize="14sp" />
+
+            <com.pkmmte.view.CircularImageView
+                android:id="@+id/imagenTestimonio"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="27dp"
+                app:border="true"
+                app:border_color="#EEEEEE"
+                app:border_width="2dp"
+                app:shadow="true" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>

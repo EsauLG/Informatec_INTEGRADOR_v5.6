@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.fcp.tec.informatecvdos">
+
+    <!--PERMISOS MULTIPLES -->
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <!--FIN DE PERMISOS MULTIPLES-->
+
+    <!-- PERMISOS PARA AUTENTICACION DE CUENTAS -->
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+
+    <!-- PERMISOS PARA SINCRONIZACION -->
+    <uses-permission android:name="android.permission.READ_SYNC_STATS" />
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS" />
+
+    <!--PERMISOS PARA INTERNET (VOLLEY)-->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+
+
+        <!--///////////////////CONTENT PROVIDERS//////////////////////-->
+        <!--SUPER IMPORTANTE QUE COINCIDA "authorities" CON LA AUTORIDAD EN EL CONTENT PROVIDER-->
+
+        <!-- PROVIDER BECAS-->
+        <provider
+            android:name=".provider.ProviderDeBecas"
+            android:authorities="com.fcp.tec.informatecvdos"
+            android:enabled="true"
+            android:exported="false"
+            android:label="Becas"
+            android:syncable="true" />
+
+        <!--PROVIDER CALENDARIO-->
+        <provider
+            android:name=".provider.ProviderDeCalendario"
+            android:authorities="com.fcp.tec.calendario"
+            android:enabled="true"
+            android:exported="false"
+            android:label="Calendario"
+            android:syncable="true" />
+
+        <!--PROVIDER CARRERAS-->
+        <provider
+            android:name=".provider.ProviderDeCarreras"
+            android:authorities="com.fcp.tec.carreras"
+            android:enabled="true"
+            android:exported="false"
+            android:label="Carreras"
+            android:syncable="true" />
+
+        <!--PROVIDER EXTRAESCOLARES-->
+        <provider
+            android:name=".provider.ProviderDeExtraescolares"
+            android:authorities="com.fcp.tec.extraescolares"
+            android:enabled="true"
+            android:exported="false"
+            android:label="Extraescolares"
+            android:syncable="true" />
+
+        <!--PROVIDER MATERIAS-->
+        <provider
+            android:name=".provider.ProviderDeMaterias"
+            android:authorities="com.fcp.tec.materias"
+            android:enabled="true"
+            android:exported="false"
+            android:label="Materias"
+            android:syncable="true" />
+
+        <!--PROVIDER PREGUNTAS TEST-->
+        <provider
+            android:name=".provider.ProviderPreguntasTest"
+            android:authorities="com.fcp.tec.preguntastest"
+            android:enabled="true"
+            android:exported="false"
+            android:label="Preguntas Test"
+            android:syncable="true" />
+
+        <!--PROVIDER PREGUNTAS FRECUENTES-->
+        <provider
+            android:name=".provider.ProviderPreguntasFrecuentes"
+            android:authorities="com.fcp.tec.preguntasfrecuentes"
+            android:enabled="true"
+            android:exported="false"
+            android:label="Preguntas Frecuentes"
+            android:syncable="true" />
+
+        <!--PROVIDER REQUISITOS EXA ADMISION-->
+        <provider
+            android:name=".provider.ProviderReqExAdmision"
+            android:authorities="com.fcp.tec.reqexaadmision"
+            android:enabled="true"
+            android:exported="false"
+            android:label="Requisitos Admision"
+            android:syncable="true" />
+
+        <!--PROVIDER REQUISITOS INSCRIPCION-->
+        <provider
+            android:name=".provider.ProviderReqInscripcion"
+            android:authorities="com.fcp.tec.reqinscripcion"
+            android:enabled="true"
+            android:exported="false"
+            android:label="Requisitos Inscripción"
+            android:syncable="true" />
+
+        <!--PROVIDER UNIDAD ACADEMICA-->
+        <provider
+            android:name=".provider.ProviderUnidadAcademica"
+            android:authorities="com.fcp.tec.unidadacademica"
+            android:enabled="true"
+            android:exported="false"
+            android:label="Unidades Académicas"
+            android:syncable="true" />
+
+        <!--PROVIDER INSTALACIONES-->
+        <provider
+            android:name=".provider.ProviderInstalaciones"
+            android:authorities="com.fcp.tec.instalaciones"
+            android:enabled="true"
+            android:exported="false"
+            android:label="Instalaciones"
+            android:syncable="true" />
+
+        <!--PROVIDER LOGROS-->
+        <provider
+            android:name=".provider.ProviderLogros"
+            android:authorities="com.fcp.tec.logros"
+            android:enabled="true"
+            android:exported="false"
+            android:label="Logros"
+            android:syncable="true" />
+
+        <!--PROVIDER TESTIMONIALES-->
+        <provider
+            android:name=".provider.ProviderTestimonios"
+            android:authorities="com.fcp.tec.testimoniales"
+            android:enabled="true"
+            android:exported="false"
+            android:label="Testimoniales"
+            android:syncable="true" />
+
+        <!--//////////////////SERVICIOS DE SYNCADAPTERS//////////////////////-->
+
+        <!--SERVICIO SYNCADAPTER BECAS-->
+        <service
+            android:name="com.fcp.tec.informatecvdos.sync.SyncServiceBecas"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.content.SyncAdapter" />
+            </intent-filter>
+            <meta-data
+                android:name="android.content.SyncAdapter"
+                android:resource="@xml/syncadapterbecas" />
+        </service>
+
+        <!--SERVICIO SYNCADAPTER CALENDARIO-->
+        <service
+            android:name="com.fcp.tec.informatecvdos.sync.SyncServiceCalendario"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.content.SyncAdapter" />
+            </intent-filter>
+            <meta-data
+                android:name="android.content.SyncAdapter"
+                android:resource="@xml/syncadaptercalendario" />
+        </service>
+
+        <!--SERVICIO SYNCADAPTER CARRERAS-->
+        <service
+            android:name="com.fcp.tec.informatecvdos.sync.SyncServiceCarreras"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.content.SyncAdapter" />
+            </intent-filter>
+            <meta-data
+                android:name="android.content.SyncAdapter"
+                android:resource="@xml/syncadaptercarreras" />
+        </service>
+
+        <!--SERVICIO SYNCADAPTER EXTRAESCOLARES-->
+        <service
+            android:name="com.fcp.tec.informatecvdos.sync.SyncServiceExtraescolares"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.content.SyncAdapter" />
+            </intent-filter>
+            <meta-data
+                android:name="android.content.SyncAdapter"
+                android:resource="@xml/syncadapterextraescolares" />
+        </service>
+
+        <!--SERVICIO SYNCADAPTER MATERIAS-->
+        <service
+            android:name="com.fcp.tec.informatecvdos.sync.SyncServiceMaterias"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.content.SyncAdapter" />
+            </intent-filter>
+            <meta-data
+                android:name="android.content.SyncAdapter"
+                android:resource="@xml/syncadaptermaterias" />
+        </service>
+
+        <!--SERVICIO SYNCADAPTER PREGUNTAS TEST-->
+        <service
+            android:name="com.fcp.tec.informatecvdos.sync.SyncServicePreguntasTest"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.content.SyncAdapter" />
+            </intent-filter>
+            <meta-data
+                android:name="android.content.SyncAdapter"
+                android:resource="@xml/syncadapterpreguntastest" />
+        </service>
+
+        <!--SERVICIO SYNCADAPTER PREGUNTAS FRECUENTES-->
+        <service
+            android:name="com.fcp.tec.informatecvdos.sync.SyncServicePreguntasFrecuentes"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.content.SyncAdapter" />
+            </intent-filter>
+            <meta-data
+                android:name="android.content.SyncAdapter"
+                android:resource="@xml/syncadapterpreguntasfrecuentes" />
+        </service>
+
+        <!--SERVICIO SYNCADAPTER REQUISITOS EXA ADMISION-->
+        <service
+            android:name="com.fcp.tec.informatecvdos.sync.SyncServiceReqExAdmision"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.content.SyncAdapter" />
+            </intent-filter>
+            <meta-data
+                android:name="android.content.SyncAdapter"
+                android:resource="@xml/syncadapterreqexaadmision" />
+        </service>
+
+        <!--SERVICIO SYNCADAPTER REQUISITOS INSCRIPCION-->
+        <service
+            android:name="com.fcp.tec.informatecvdos.sync.SyncServiceReqInscripcion"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.content.SyncAdapter" />
+            </intent-filter>
+            <meta-data
+                android:name="android.content.SyncAdapter"
+                android:resource="@xml/syncadapterreqinscripcion" />
+        </service>
+
+        <!--SERVICIO SYNCADAPTER UNIDAD ACADEMICA-->
+        <service
+            android:name="com.fcp.tec.informatecvdos.sync.SyncServiceUnidadAcademica"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.content.SyncAdapter" />
+            </intent-filter>
+            <meta-data
+                android:name="android.content.SyncAdapter"
+                android:resource="@xml/syncadapterunidadacademica" />
+        </service>
+
+        <!--SERVICIO SYNCADAPTER INSTALACIONES-->
+        <service
+            android:name="com.fcp.tec.informatecvdos.sync.SyncServiceInstalaciones"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.content.SyncAdapter" />
+            </intent-filter>
+            <meta-data
+                android:name="android.content.SyncAdapter"
+                android:resource="@xml/syncadapterinstalaciones" />
+        </service>
+
+        <!--SERVICIO SYNCADAPTER LOGROS-->
+        <service
+            android:name="com.fcp.tec.informatecvdos.sync.SyncServiceLogros"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.content.SyncAdapter" />
+            </intent-filter>
+            <meta-data
+                android:name="android.content.SyncAdapter"
+                android:resource="@xml/syncadapterlogros" />
+        </service>
+
+        <!--SERVICIO SYNCADAPTER TESTIMONIALES-->
+        <service
+            android:name="com.fcp.tec.informatecvdos.sync.SyncServiceTestimoniales"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.content.SyncAdapter" />
+            </intent-filter>
+            <meta-data
+                android:name="android.content.SyncAdapter"
+                android:resource="@xml/syncadaptertestimoniales" />
+        </service>
+
+    <!--//////////////////////////AUTENTICADOR/////////////////////////////////////-->
+
+        <!-- SERVICIO DE AUTENTICACIÓN -->
+        <service android:name="com.fcp.tec.informatecvdos.sync.AuthenticationService">
+            <intent-filter>
+                <action android:name="android.accounts.AccountAuthenticator" />
+            </intent-filter>
+            <meta-data
+                android:name="android.accounts.AccountAuthenticator"
+                android:resource="@xml/authenticator" />
+        </service>
+
+    <!--//////////////////////////////ACTIVITIES////////////////////////////////////-->
+        <activity
+            android:name=".SplashScreen"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.OneFragmentItem_Preguntas"
+            android:label="Preguntas"
+            android:parentActivityName=".MainActivity"
+            >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".activities.OneFragmentItem_Test"
+            android:label="@string/title_activity_one_fragment_item__test"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".activities.OneFragmentItem_Carreras"
+            />
+        <activity
+            android:name=".activities.OneFragmentItem_Beneficios"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.OneFragmentItem_Calendario"
+            />
+        <activity
+            android:name=".activities.OneFragmentItem_Padmin"
+            />
+        <activity
+            android:name=".activities.OneFragmentItem_Contacto"
+            />
+        <activity
+            android:name=".activities.OneFragmentItem_Resultados"
+            />
+        <activity
+            android:name=".activities.Acerca_De"
+            />
+
+    </application>
+
+</manifest>
