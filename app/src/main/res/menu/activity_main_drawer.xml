@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_inicio"
+            android:checkable="true"
+            android:background="#ffffff"
+            android:icon="@drawable/ic_inicio"
+            android:title="@string/item_inicio"/>
+
+        <item
+            android:id="@+id/nav_instalaciones"
+            android:icon="@drawable/ic_instalaciones"
+            android:title="@string/item_instalaciones"/>
+        <item
+            android:id="@+id/nav_extraescolares"
+            android:icon="@drawable/ic_extraescolares"
+            android:title="@string/item_extraescolares"/>
+        <item
+            android:id="@+id/nav_testimonios"
+            android:icon="@drawable/ic_testimonios"
+            android:title="@string/item_testimonios"/>
+        <item
+            android:id="@+id/nav_logros"
+            android:icon="@drawable/ic_logros"
+            android:title="@string/item_logros"/>
+    </group>
+
+
+</menu>

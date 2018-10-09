@@ -1,0 +1,142 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:background="@drawable/degradadosplash"
+                android:orientation="vertical"
+                tools:context="com.fcp.tec.informatecvdos.activities.OneFragmentItem_Test">
+
+
+    <RelativeLayout
+        android:id="@+id/dat1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginRight="150dp"
+        android:layout_marginTop="75dp">
+
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/rounded_border_filled_header"/>
+
+        <TextView
+            android:id="@+id/card_text_descripcion_logros"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/view1"
+            android:background="@drawable/rounded_border_filled_content"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:text=""
+            android:textColor="@color/dark_grey"
+            android:textSize="16sp"
+            tools:ignore="HardcodedText,RtlHardcoded,UnusedAttribute"
+            tools:text="El examen consta de 80 preguntas que te ayudaran a elegir la carrera adecuado para ti en el TEC. Elige NO, SI de acuerdo a tus intereses en cada actividad."/>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="6dp"
+            android:text="Instrucciones"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText"/>
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/preguntasLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dat1"
+        android:layout_marginLeft="150dp"
+        android:layout_marginRight="150dp"
+        android:layout_marginTop="25dp">
+
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#313e3e"/>
+
+        <TextView
+            android:id="@+id/textview_test_pregunta"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@id/view2"
+            android:background="@drawable/rounded_border_filled_content"
+            android:gravity="center"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="Este es la muestra de la pregunta más larga del test, el cual tiene un aproximado de 4 lineas: 79.- Administrar y ordenar (planificar) adecuadamente la ocupación del espacio fisico de ciudades, paisajes, etc.., utilizando imagenes de satellite o mapas."
+            android:textColor="@color/dark_grey"
+            android:textSize="16sp"
+            tools:ignore="HardcodedText"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/view2"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/rounded_border_filled_header"
+            android:paddingTop="6dp"
+            android:text="Pregunta X de #"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText"/>
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/preguntasLayout"
+        android:layout_marginLeft="150dp"
+        android:layout_marginRight="150dp"
+        android:layout_marginTop="100dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/button_test_no"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/button_states_no"
+            android:text="No"
+            android:textColor="#FFF"
+            android:textSize="24sp"
+            tools:ignore="ButtonStyle,HardcodedText"/>
+
+        <Button
+            android:id="@+id/button_test_si"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/button_test_no"
+            android:background="@drawable/button_states_yes"
+            android:text="Si"
+            android:textColor="#ffffff"
+            android:textSize="24sp"
+            tools:ignore="ButtonStyle,HardcodedText"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

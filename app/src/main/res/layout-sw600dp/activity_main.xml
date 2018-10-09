@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        layout="@layout/content_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="280dp"
+        android:layout_marginStart="280dp"/>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="280dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/degradado"
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:paddingTop="2dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+
+        <ImageButton
+
+            android:id="@+id/btntec"
+            android:layout_width="230dp"
+            android:layout_height="130dp"
+            android:layout_gravity="center"
+            android:background="@drawable/logotec"
+            android:paddingTop="2dp"
+            android:scaleType="centerInside"
+            android:contentDescription="TODO"/>
+
+        <!-- Nombre del Tec -->
+        <TextView
+            android:id="@+id/nombreTec"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="5dp"
+            android:text="@string/nombre_Tec"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <!-- Subtitulo Tec -->
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="5dp"
+            android:text="@string/subtituloEscuela"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#ffffff"
+            android:textSize="15sp"/>
+
+        <android.support.design.widget.NavigationView
+            android:id="@+id/nav_view"
+            android:layout_width="280dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:fitsSystemWindows="true"
+            app:itemTextColor="#FFFFFF"
+            android:background="#4b5367"
+            app:menu="@menu/activity_main_drawer"/>
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

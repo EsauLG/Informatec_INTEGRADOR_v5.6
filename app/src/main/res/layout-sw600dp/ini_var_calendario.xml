@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/degradadosplash"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:id="@+id/layoutSeccion1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="60dp">
+
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:background="@drawable/rounded_border_filled_header"/>
+
+
+        <TextView
+            android:id="@+id/card_tex2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/view2"
+            android:background="@drawable/rounded_border_filled_content"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:text="@string/tituloCalendario"
+            android:textColor="@color/dark_grey"
+            android:textSize="16sp"/>
+
+
+        <TextView
+            android:id="@+id/card_text_titulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Fechas Importantes"
+            android:textColor="#ffffff"
+            android:textSize="20sp"/>
+
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:id="@+id/calendarioFechas"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:background="@drawable/rounded_border_white_title"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtFechasCalendario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="fechas del calendario de actividades del tecnológico"
+            android:textSize="16sp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:orientation="vertical">
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Click para revisar actualizaciones (Se requiere una conexión a internet o datos móviles)"
+            android:textColor="#fff"/>
+
+        <Button
+            android:id="@+id/btnActualizacionesCalendario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="@drawable/button_states"
+            android:text="actualizar"
+            android:textColor="#fff"
+            android:textSize="18sp"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
